@@ -1,0 +1,11 @@
+Programa de gestion Mario Lopez Llamas
+Hito programacion primer trimestre
+
+La aplicacion no tiene funciones para que no explote por todo el documento
+pero he hecho que funcione bastante bien en la funcion de logIn 
+
+A esta se puede acceder desde el menu ya que es la primera opcion o nadamas iniciar la aplicacion
+
+Recomiendo encarecidamente ejecutar el programa con el comando: python main.py
+
+ya que se ve bastante mejor y es mas comodo. Es importante ejecutar el comando en el directorio del programa
