@@ -49,14 +49,14 @@ class Pedidos:  # creacion clase Pedidos
             try:  # try intenta realizar el fragmento de codigo para que no se pare la aplicacion si da error
                 x = int(input('\nElige un pedido al cual sacar factura por "id": '))  # variable para guardar el id
                 y = pedidos[x][1]  # variable para guardar el nombre del usuario asociado al pedido
+                cliente = ''
                 contador = 0  # contador para ir por la lista comparando
-                while True:  # bucle comparador
 
-                    # comparando la variable "i" con tabla clientes posicion basada en contador
-                    if y != clientes[contador][1]:  # si no es concordante se suma 1 al contador
-                        contador += 1  # se suma 1 al contador hasta que encuentre una concordacia
+                while True:
+                    if y == clientes[0][1]:
+                        cliente = clientes[contador][5]
                     else:  # concordancia encontrada!
-                        cliente = clientes[contador][5]  # guardamos el resultado correcto en la variable cliente
+                        contador += 1  # guardamos el resultado correcto en la variable cliente
                         break  # fin del bucle
 
                 # si la variable x no es igual al último id de pedios no dejará seleccionarlo
